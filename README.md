@@ -2,6 +2,12 @@
 
 A simple client for [T-money](https://www.t-money.co.kr/).
 
+## Installation
+
+```sh
+gem install tmoney
+```
+
 ## How to use
 
 The following is the example which demonstrates how to use T-money client. To test this code, you need to change `<USERNAME>` and `<PASSWORD>` to your own username and password.
