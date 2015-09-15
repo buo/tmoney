@@ -47,8 +47,7 @@ module Tmoney
       doc = Nokogiri::HTML(resp.body)
       results = []
       doc.css('.tb_mylist table tbody tr').each do |tr|
-        card = Card.new
-        card.client = self
+        card = Card.new :client => self
 
         # 카드 구분
         card.type = tr.css('td:nth-child(1)').text.strip

@@ -4,6 +4,12 @@ module Tmoney
   class Card
     attr_accessor :type, :no, :regdate, :services
 
+    def initialize(args={})
+      args.each_pair do |key, value|
+        send("#{key}=", value)
+      end
+    end
+
     def client=(client)
       @client = client
     end
