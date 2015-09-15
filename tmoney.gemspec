@@ -9,7 +9,7 @@ Gem::Specification.new do |gem|
   gem.email       = ['buo@users.noreply.github.com']
   gem.summary     = 'A simple client for T-Money'
   gem.description = 'A simple client for T-Money (https://www.t-money.co.kr/)'
-  gem.homepage    = 'http://rubygems.org/gems/tmoney'
+  gem.homepage    = 'https://github.com/buo/tmoney'
   gem.license     = 'MIT'
 
   gem.files       = `git ls-files`.split($/)
