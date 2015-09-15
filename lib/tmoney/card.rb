@@ -64,7 +64,8 @@ module Tmoney
         results << t
       end
 
-      results
+      # Sort transactions in ascending order (old to new).
+      results.reverse
     end
 
     def to_s
