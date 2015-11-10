@@ -1,3 +1,5 @@
+[![Gem Version](https://badge.fury.io/rb/tmoney.svg)](https://badge.fury.io/rb/tmoney)
+
 # tmoney
 
 A simple client for [T-money](https://www.t-money.co.kr/).
